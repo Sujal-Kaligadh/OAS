@@ -1,0 +1,102 @@
+body {
+  background-color: #f2f4f3;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.7em top 50%;
+  background-size: 1em;
+  padding-right: 2.5em;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  max-width: 1300px !important;
+}
+
+nav.navbar{
+  background-color: #22333B !important;
+}
+
+
+/* nav.navbar a{
+  color: white !important;
+} */
+
+ 
+div#login-block {
+  border: solid #f1f1f1 2px;
+  padding: 15px 10px;
+  background-color: #f1f1f1;
+}
+
+#footer-main{
+  background-color: #0A0908;
+}
+
+
+
+table {
+  width: 100%;
+}
+
+thead {
+  background-color: #5E5035;
+  color: #ffffff;
+}
+
+table th, table td {
+  border: solid black 1px;
+  padding: 10px;
+}
+
+
+
+/*Forms CSS*/
+
+form.node-forms {
+  background: white;
+  padding: 10px 20px;
+  box-shadow: 0 0 5px 2px #dddddd;
+  margin: 20px 0px;
+}
+
+.homepage-project-block:nth-child(1), .homepage-completed-project-block {
+  background: #285881;
+  border: solid #00acb5 2px;
+}
+
+
+.homepage-project-block:nth-child(2), .homepage-pending-project-block {
+  background: #894444;
+  border: solid #00acb5 2px;
+}
+
+.homepage-project-block .card-title {
+  margin: 0px;
+  padding: 15px 10px;
+}
+
+.second-block {
+  margin: 50px 0px;
+}
+
+
+.monthly-project-block{
+  position: relative;
+}
+
+
+.col-md-9.monthly-project-block div.row {
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  left: 35px;
+}
