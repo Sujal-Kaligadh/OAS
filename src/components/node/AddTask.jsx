@@ -97,8 +97,8 @@ function AddTask() {
 
                 const data = await response.json();
                 if (Array.isArray(data)) {
-                    // Filter only users with role "User"
-                    const filteredUsers = data.filter(user => user.type === "User");
+                    
+                    const filteredUsers = data.filter(user => user.type === "User" || user.type === "Manager");
                     setUsers(filteredUsers);
                 } else {
                     console.error('Received non-array data:', data);
