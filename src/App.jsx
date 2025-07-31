@@ -30,6 +30,8 @@ import UpdateTasks from "./components/node/update/UpdateTasks";
 import AddProjects from "./components/node/AddProjects";
 import Projects from "./components/Projects";
 import UpdateProjects from "./components/node/update/UpdateProjects";
+import Documents from "./components/Documents";
+import AddDocuments from "./components/node/AddDocuments";
 
 function AppContent() {
   const location = useLocation();
@@ -59,6 +61,7 @@ function AppContent() {
         <Route path="/" element={<Home />} />
         <Route path="/tasks" element={<Tasks />} />
         <Route path="/notices" element={<Notices />} />
+        <Route path="/documents" element={<Documents />} />
         <Route path="/reports" element={<Reports />} />
         <Route path="/users" element={<Users />} />
         <Route path="/profile" element={<Profile />} />
@@ -70,6 +73,7 @@ function AppContent() {
         <Route path="/node/edit/notices/:id" element={<UpdateNotices />} />
         <Route path="/node/add/projects" element={<AddProjects />} />
         <Route path="/node/edit/projects/:id" element={<UpdateProjects />} />
+        <Route path="/node/add/documents" element={<AddDocuments />} />
         <Route path="/assigned-tasks" element={<AssignedTasks />} />
         <Route path="/my-tasks" element={<MyTasks />} />
         <Route path="/projects" element={<Projects />} />
